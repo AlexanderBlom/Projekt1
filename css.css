@@ -1,31 +1,41 @@
 body{
 	font-size: 16px;
-    background-color: #999999;
+    background-color: #eeeeee;
+    margin:0 auto;
 }
 
 main{
 	margin: 0 auto;
-	width:80%;
+	width: 80%;
     font-size: 18px;
+}
+
+img
+ {
+    float: right;
 }
 
 nav ul li{
     font-size: 2em;
     display: inline;
-    margin: 20px;
+    margin: 40px;
 
 }
 
 nav {
-    background-color:grey;
-    border: 5px solid;
+    background-color: #c1c1c1;
+    height: 45px;
 }
+
+ul{
+    margin-top: 0px;
+}
+
 li {
-    border: 5px solid;
 }
 
 .startmen {
-    margin-left: 300px;
+    margin-left: 420px;
 }
 
 a {
@@ -34,35 +44,9 @@ a {
 }
 
 a:hover {
-    color: #ff0000;
+    text-decoration: underline;
 }
 
-.topbybe{
-	float:right;
-	margin: 25px;
-}
-
-.phold{
-	float:right;
-	margin: 25px;
-	border: 5px inset;
-}
-
-.topbybe:hover {
-  animation: bake 1.0s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes bake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(36deg); }
-    20% { transform: translate(-3px, 0px) rotate(72deg); }
-    30% { transform: translate(3px, 2px) rotate(108deg); }
-    40% { transform: translate(1px, -1px) rotate(144deg); }
-    50% { transform: translate(-1px, 2px) rotate(180deg); }
-    60% { transform: translate(-3px, 1px) rotate(213deg); }
-    70% { transform: translate(3px, 1px) rotate(252deg); }
-    80% { transform: translate(-1px, -1px) rotate(288deg); }
-    90% { transform: translate(1px, 2px) rotate(324deg); }
-    100% { transform: translate(1px, -2px) rotate(360deg); }
+.p2{
+    margin-right: 65%;
 }
