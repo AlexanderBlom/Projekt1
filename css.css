@@ -10,9 +10,38 @@ main{
     font-size: 18px;
 }
 
-img
- {
+.katjakaj{
     float: right;
+    margin-top: 2%;
+    border: solid;
+}
+
+.caprademonimg{
+    float: left;
+    border: solid;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+
+.p1{
+    margin-right: 30%;
+}
+
+.p2{
+    margin-left: 25%;
+}
+
+.caprademon{
+    margin-top: 5%;
+}
+
+.capradogs{
+    float-right;
+}
+
+.banner{
+    margin-top:10px;
+    border: solid;
 }
 
 nav ul li{
@@ -25,6 +54,7 @@ nav ul li{
 nav {
     background-color: #c1c1c1;
     height: 45px;
+    border: solid;
 }
 
 ul{
@@ -45,8 +75,4 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-.p2{
-    margin-right: 65%;
 }
